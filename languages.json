@@ -1176,6 +1176,13 @@
       "env": ["raku", "perl6"],
       "extensions": ["raku", "rakumod", "rakutest", "pm6", "pl6", "p6"]
     },
+    "Raven": {
+      "line_comment": ["#"],
+      "multi_line_comments": [["#|", "|#"]],
+      "quotes": [["\\\"", "\\\""], ["\\\"\\\"\\\"", "\\\"\\\"\\\""]],
+      "nested": true,
+      "extensions": ["rv"]
+    },
     "Razor": {
       "multi_line_comments": [["<!--", "-->"], ["@*", "*@"]],
       "extensions": ["cshtml"]
